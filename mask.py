@@ -7,7 +7,7 @@ from picamera.array import PiRGBArray
 from picamera import PiCamera
 import time
 
-###loading a model-provide the specify the location
+###loading a model-provide the specific location
 model = load_model('models/mask_detector.h5')
 cap = cv2.VideoCapture(0)
 
