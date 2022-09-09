@@ -1,1 +1,1 @@
-# Covid-19-Based-Automated-Screening-System-
+# Covid-19-Based-Automated-Screening-System
