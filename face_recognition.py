@@ -3,10 +3,12 @@ import cv2
 import face_recognition as fr
 from picamera import PiCamera
 
+#Capturing the video 
+
 video_capture = cv2.VideoCapture(0)
 #camera = PiCamera()
 #camera.rotation = 180
-
+ 
 vaishnavi_image= fr.load_image_file("/home/pi/Pictures/Images/Vaishnavi/vaishnavi.jpg")
 vaishnavi_face_encoding = fr.face_encodings(vaishnavi_image)[0]
 
